@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Emotion Detection</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="logo">MoodAI</div>
+
+<div class="camera-container">
+
+<h1>Emotion Detection</h1>
+
+<video id="video" width="420" autoplay></video>
+
+<div class="buttons">
+
+<button onclick="startCamera()">
+<i class="fa-solid fa-video"></i> Open Camera
+</button>
+
+<button onclick="captureEmotion()">
+<i class="fa-solid fa-camera"></i> Capture Emotion
+</button>
+
+</div>
+
+<div class="result-box">
+
+<h2 id="emotion">Emotion: </h2>
+
+<p id="suggestion"></p>
+
+</div>
+
+<button class="retry" onclick="location.href='index.html'">
+Go Back
+</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
